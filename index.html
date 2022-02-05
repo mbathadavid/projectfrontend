@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.css">
     <link rel="stylesheet" href="fontawesome.min.css">
 
     <title>CHILD PROTECTION INFORMATION MANAGEMENT SYSTEM</title>
@@ -51,7 +52,7 @@
                             <th scope="col">Last Name</th>
                             <th scope="col">Recent Location</th>
                             <th scope="col">Vulnerability</th>
-                            <th class="w3-blue" scope="col">Details</th>
+                            <th scope="col">Details</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -123,8 +124,16 @@
         </div>
     </div>
 
+<script src="js/jquery.min.js"></script>
 <script src="js/fontawesome.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('table').DataTable();
+    })
+</script>
 </body>
 </html>
