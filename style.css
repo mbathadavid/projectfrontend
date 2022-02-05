@@ -17,3 +17,6 @@ body {
 #navigation {
     background-color: skyblue;
 }
+.w3-red {
+    background-color: rgba(252, 135, 93, 0.842)!important;
+}
