@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="w3.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="fontawesome.min.css">
 
     <title>CHILD PROTECTION INFORMATION MANAGEMENT SYSTEM</title>
 </head>
-<body>
+<body class="mb-10">
     <h3 class="text-center bg-dark w3-blue pt-3 pb-3 mb-0">CHILD PROTECTION INFORMATION MANAGEMENT SYSTEM</h3>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -42,7 +42,8 @@
 
     <div class="row d-flex justify-content-center mt-5">
         <div class="col-lg-8 col-md-8 col-sm-10">
-            <div class="table-responsive">
+            <h5 class="text-center text-info mb-3">CHILDREN DETAILS</h5>
+            <div class="table-responsive pb-10">
                 <table class="table">
                     <thead>
                         <tr>
@@ -72,7 +73,7 @@
                         <td>Muteti</td>
                         <td>Eldoret</td>
                         <td>Safe Area</td>
-                        <td><a class="btn btn-info" href="details.html">View</a></td>
+                        <td></td>
                     </tr>
                     <tr class="w3-red">
                         <td>3</td>
@@ -89,8 +90,8 @@
                         <td>Esther</td>
                         <td>John</td>
                         <td>Bungoma</td>
-                        <td>SaFE Area</td>
-                        <td><a class="btn btn-info" href="details.html">View</a></td>
+                        <td>Safe Area</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>5</td>
@@ -99,7 +100,7 @@
                         <td>Japheth</td>
                         <td>Kilifi</td>
                         <td>Safe Area</td>
-                        <td><a class="btn btn-info" href="details.html">View</a></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>6</td>
@@ -108,7 +109,7 @@
                         <td>Kitungu</td>
                         <td>Turkana</td>
                         <td>Safe Area</td>
-                        <td><a class="btn btn-info" href="details.html">View</a></td>
+                        <td></td>
                     </tr>
                     <tr class="w3-red">
                         <td>7</td>
@@ -123,13 +124,14 @@
             </div>
         </div>
     </div>
+    
+
 
 <script src="js/jquery.min.js"></script>
 <script src="js/fontawesome.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.js"></script>
-
+<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap4.min.js"></script>
 <script>
     $(document).ready(function(){
         $('table').DataTable();
