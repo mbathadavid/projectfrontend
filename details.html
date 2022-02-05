@@ -5,15 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 
     <title>DETAILS</title>
 </head>
 <body>
-    <h3 class="text-center text-danger w3-green p-2">IPMIS</h3>
+    <h3 class="text-center bg-dark w3-blue pt-3 pb-3 mb-0">CHILD PROTECTION INFORMATION MANAGEMENT SYSTEM</h3>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <b><a class="navbar-brand">CPMIS</a></b>
+          <form class="d-flex">
+            <input autofocus class="form-control me-2" type="search" placeholder="ENTER CPMIS NO." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
     <div class="d-flex justify-content-center m-2">
         <div class="col-lg-8 col-md-10 col-sm-12">
         <div class="card">
@@ -79,9 +90,16 @@
             </div>
         </div>
 
-        <h6>Your child's safety is our concern.</h6>
-<script src="js/fontawesome.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/fontawesome.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $('table').DataTable();
+            })
+        </script>
 </body>
 </html>
